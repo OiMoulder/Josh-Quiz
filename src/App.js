@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { AppProvider } from "./state";
 import { Confirm } from "./Steps/Confirm";
 import { GeneralKnowledge } from "./Steps/GeneralKnowledge";
-import "./styles.scss";
+import "./App.css";
 
 export const App = () => {
   return (

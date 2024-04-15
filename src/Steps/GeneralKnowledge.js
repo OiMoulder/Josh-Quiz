@@ -16,7 +16,7 @@ export const GeneralKnowledge = () => {
 
   const saveData = (data) => {
     setState({ ...state, ...data });
-    navigate("/education");
+    navigate("/confirm");
   };
 
   return (
