@@ -13,7 +13,7 @@ body {
 .form-label {
   color: #ff0000; /* Form item name colors */
   float: left;
-  padding-inline: 10px 100px;
+  padding-inline: 1px 10px;
 }
 .form-label:after {
   content: ": ";
@@ -23,21 +23,27 @@ body {
   color: #000000;
 }
 
+legend {
+  color: #ffffff;
+  size: 15px;
+}
+
 fieldset {
   background-color: #000000; /* Box color */
   color: #ff0000; /* Box title color */
   display: block;
-  margin-inline-start: 2px;
-  margin-inline-end: 2px;
-  padding-block-start: 0.35em;
-  padding-inline-start: 0.75em;
-  padding-inline-end: 0.75em;
-  padding-block-end: 0.625em;
+  margin-inline-start: 1%;
+  margin-inline-end: 1%;
+  padding-block-start: 2%;
+  padding-inline-start: 2%;
+  padding-inline-end: 4%;
+  padding-block-end: 2%;
   min-inline-size: min-content;
-  border-width: 5px;
+  border-width: 10px;
   border-style: groove;
-  border-color: #000000;
+  border-color: #4b08f3;
   border-image: initial;
+  border-radius: 10px; /* Rounded corners */
 }
 
 button {
@@ -48,10 +54,19 @@ button {
   cursor: pointer;
   margin: 4px 2px;
   padding: 15px 32px;
+  border-radius: 10px; /* Rounded corners */
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
+#first-name,
+#last-name,
+#email,
+#password,
+#password-confirm {
+  color: #000000; /* Adding text color to make it visible */
+  width: 100%;
+  background-color: #dcdcdc; /* Grey background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px; /* Padding around the input */
 }
 
 div {
