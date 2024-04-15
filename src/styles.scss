@@ -1,0 +1,109 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 24px;
+  width: 600px;
+  margin: 0 auto;
+  color: #56dc35;
+}
+
+background {
+  color: #101560;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 600px;
+  color: #35dcd1; /* Colour for the form title */
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  color: #0f50ab;
+}
+
+.section-row {
+  display: flex;
+  width: 100%;
+  color: #35bddc;
+
+  div {
+    display: flex;
+    margin-bottom: 0.5rem;
+
+    &:first-child {
+      width: 50%;
+    }
+
+    &:last-child {
+      width: 50%;
+    }
+  }
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #dc35d6;
+}
+
+form {
+  width: 100%;
+  color: #dcd135;
+}
+
+.submit-form {
+  display: flex;
+  margin: 24px 0 auto 0;
+  color: #3549dc;
+}
+
+a.active {
+  color: #147d65;
+}
+
+.stepper {
+  display: flex;
+  padding: 24px;
+  width: 100%;
+  color: #a435dc;
+
+  ol {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.error {
+  display: flex;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: #dc3545;
+}
+
+label {
+  display: flex;
+  color: #6adc35; /* Colour for the form words */
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #35dcb2;
+}
+
+.c-iprHJT-iduCAYI-css {
+  color: #071685;
+}
